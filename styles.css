@@ -1,0 +1,51 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+body{
+    background-color: #fbfbfe;
+}
+.overview{
+    display:inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.search{
+    height: fit-content;
+}
+.top{
+    width: 40px;
+    height: 40px;
+}
+.top7{
+    min-height: 25%;
+    max-height: 50%;
+}
+thead{
+    background-color: #fbfbfe;
+}
+.tableDiv{
+    background-color: white;
+    border-radius: 20px;
+}
+.loader{
+    margin: 0 0 2em;
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    display: none;
+  }
+  
+  /*
+    Set the color of the icon
+  */
+  svg path,
+  svg rect{
+    fill: #3861fb;
+  }
+  .navbar-brand{
+    color: #3861fb;
+  }
